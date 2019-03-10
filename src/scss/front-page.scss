@@ -1,0 +1,69 @@
+.carousel-indicators li { background-color : $beige ; }
+.carousel-indicators li.active { background-color : $gold ; }
+.carousel-control-prev-icon,
+.carousel-control-next-icon { color : $gold ;}
+
+#home-carousel {
+    .row, .col { height : 100% ; }
+
+    .left {
+        display: inline-block;
+        height : 100% ;
+        @media screen and (max-width: $break-sm) {
+            height : 60% ;
+            display : flex ;
+            justify-content: center ;
+        }
+        .carousel-img {
+            float: right ;
+            height : 100% ;
+            width:  auto ;
+            max-height : 100% ;
+        }
+    }
+
+    .right {
+        height : 100% ;
+        position  : relative ;
+        padding : 0 ;
+        margin : 0 ;
+        * { text-align: left ; }
+
+        @media screen and (max-width: $break-sm) {
+            height : 30% ;
+            * { text-align: center ; }
+            margin-top : -40px ;
+        }
+
+
+        .carousel-content {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left : 0 ;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+
+            .carousel-titre { @include titre-style(); margin-bottom : .5rem ;}
+            .carousel-description { @include text-on-blue-style(); }
+            .carousel-button { @include button($gold); }
+
+
+            @media screen and (max-width: $break-sm) {
+                position : relative ;
+            }
+        }
+
+    }
+}
+
+
+.carousel-item {
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

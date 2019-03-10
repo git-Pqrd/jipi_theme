@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+
+
+//media queries
+$break-sm: 576px;
+$break-md: 768px;
+$break-lg: 992px;
+$break-xl: 1200px;
+//font
+$primary-font-family : "Roboto" , helvetica;
+$secondary-font-family : "Segoe UI", Courier New;
+//color
+$red : #520C08 ;
+$white : #ffffff ;
+$beige : #D1CEA1 ;
+$blue : #1E2434 ;
+$gold : #B1924F ;
+
+html { font-size  : 1em }
+//character style
+@mixin titre-style() {
+    font-family : $primary-font-family ;
+    font-size  : 3rem ;
+    line-height  : 3rem ;
+    font-weight: 300;
+    color: $white ;
+}
+
+@mixin text-on-blue-style() {
+    font-family : $primary-font-family ;
+    font-size  : 1rem ;
+    line-height  : 1.2rem ;
+    font-weight: lighter ;
+    color: $beige ;
+}
+
+@mixin button($color) {
+    color: $color ;
+    border: 3px solid $color ;
+    padding : 5px  50px ;
+    font-size : 1em ;
+    height: auto ;
+    background : transparent ;
+}
+
+body { background-color: $blue ; }
+@import './header' ;
+@import './front-page' ;

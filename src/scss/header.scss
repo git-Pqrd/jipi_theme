@@ -1,0 +1,22 @@
+#nav  {
+   ul.menu-top {
+     a {
+        color : $gold   ;
+        font-family : $secondary-font-family ;
+        font-weight: 300 ;
+     }
+   }
+   .navbar-toggler {
+      color : $gold  ;
+   }
+}
+
+#titre {
+  font-family: $primary-font-family ;
+  color : $gold ;
+  font-size : 2rem ;
+}
+
+img.custom-logo {
+  height : 2rem !important ;
+}
