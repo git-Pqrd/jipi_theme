@@ -1,5 +1,6 @@
 <header>
   <div id="slider_jp" class="carousel slide" data-ride="carousel">
+
     <ol class="carousel-indicators">
       <li data-target="#slider_jp" data-slide-to="0" class="active"></li>
       <li data-target="#slider_jp" data-slide-to="1"></li>

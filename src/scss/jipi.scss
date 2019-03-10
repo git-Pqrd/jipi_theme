@@ -1,0 +1,26 @@
+.jean-pierre {
+    .jean-pierre-titre {
+        @include titre-style() ;
+        @media screen and (max-width: $break-sm) {
+            font-size : 2.5em ;
+        }
+    }
+    .jean-pierre-sous-titre {
+        margin-top : 0 ;
+        @include light-on-blue-style(1.8em) ;
+        line-height : .5em ;
+        @media screen and (max-width: $break-sm) {
+            font-size : 1.2em ;
+            line-height : 1em ;
+        }
+    }
+    .jean-pierre-img-container {
+        display : flex ;
+        justify-content: center ;
+    }
+    .jean-pierre-img {
+        height : 300px ;
+        margin : auto ;
+        padding : 0 ;
+    }
+}

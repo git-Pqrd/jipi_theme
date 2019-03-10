@@ -6,6 +6,7 @@ $break-sm: 576px;
 $break-md: 768px;
 $break-lg: 992px;
 $break-xl: 1200px;
+@media screen and (max-width: $break-sm) { .no-mobile { display : none ; } }
 //font
 $primary-font-family : "Roboto" , helvetica;
 $secondary-font-family : "Segoe UI", Courier New;
@@ -18,7 +19,14 @@ $gold : #B1924F ;
 
 html { font-size  : 1em }
 //character style
-@mixin titre-style() {
+@mixin light-on-blue-style($size) { //navbar, visiter-cta
+        color : $gold   ;
+        font-family : $secondary-font-family ;
+        font-weight: 300 ;
+        font-size: $size ;
+}
+
+@mixin titre-style() { //titre section, nom prdt header
     font-family : $primary-font-family ;
     font-size  : 3rem ;
     line-height  : 3rem ;
@@ -26,7 +34,7 @@ html { font-size  : 1em }
     color: $white ;
 }
 
-@mixin text-on-blue-style() {
+@mixin text-on-blue-style() { //desc produit and footer
     font-family : $primary-font-family ;
     font-size  : 1rem ;
     line-height  : 1.2rem ;
@@ -34,7 +42,7 @@ html { font-size  : 1em }
     color: $beige ;
 }
 
-@mixin button($color) {
+@mixin button($color) { //all button
     color: $color ;
     border: 3px solid $color ;
     padding : 5px  50px ;
@@ -42,7 +50,25 @@ html { font-size  : 1em }
     height: auto ;
     background : transparent ;
 }
+//utilities mixin
+/* @include transition(all,2s,ease-out); */
+@mixin transition($what: all, $time: 0.2s, $how: ease-in-out) {
+    -webkit-transition: $what $time $how;
+    -moz-transition:    $what $time $how;
+    -ms-transition:     $what $time $how;
+    -o-transition:      $what $time $how;
+    transition:         $what $time $how;
+}
+
 
 body { background-color: $blue ; }
+
+
+
+@import './navbar' ;
 @import './header' ;
-@import './front-page' ;
+@import './intersection' ;
+@import './jipi' ;
+@import './about' ;
+@import './gallery' ;
+@import './footer' ;

@@ -1,0 +1,17 @@
+//.intersection { position : relative }
+.cta-intersection {
+    width : 100% ;
+    display : flex ;
+    justify-content : center ;
+    position : relative ;
+    z-index: 2;
+    margin-bottom : -80px ;
+    .cta-intersection-inside { text-align: center ;}
+    .cta-intersection-inside a {
+        @include light-on-blue-style(1em);
+        display : block ;
+        cursor : pointer;
+    }
+    .cta-intersection-inside a:hover { color : $beige ; }
+    .cta-intersection-img { height : 80px ; }
+}

@@ -1,0 +1,13 @@
+.about {
+    background-color : $beige;
+    padding-top : 30px ;
+    padding-bottom : 30px ;
+    margin-top : -30px ;
+    .about-titre {
+        @include titre-style() ;
+        margin-bottom : 20px ;
+    }
+    .about-texte {
+        color : $blue ;
+    }
+}
