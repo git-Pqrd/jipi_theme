@@ -1,6 +1,13 @@
-#Download this
-#Run `npm install`
-#Run `npm run watch`
-#have browsersync on other tmux pane
-# `npm install -g browser-sync` if not
-# `browser-sync start --proxy "http://192.168.99.100:8000" --files "*"`
+# theme Jean Pierre Hallet
+
+## Introduction
+
+CREATION DU THEME DE JEAN PIERRE HALLET PAS ECOMME JUSTE SITE DE PRESA    
+
+## Code Samples
+
+simple wordpress, rien de fancy. 
+
+## Installation
+
+Suivre mon insta présente sur le gist
