@@ -1,4 +1,4 @@
-<div class="gallery">
+<div class="front-gallery">
     <div class="container">
         <div class="card-columns">
         <a class="card"><img src="https://via.placeholder.com/500x890/dedede/000000.png?text=exemple+de+ceramique" alt=""></a>

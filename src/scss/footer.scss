@@ -10,13 +10,20 @@
     li {
         @include text-on-blue-style();
         line-height : 1.5em ;
+        @media screen and (max-width: $break-sm) {
+            font-size : 0.8em ;
+            line-height : 1.8em ;
+        }
     }
+
+
+
     .footer-reverse {
         direction: rtl;
         unicode-bidi: bidi-override;
     }
     a {
-        color : $gold ;
+        color : $beige ;
         cursor : pointer ;
     }
 

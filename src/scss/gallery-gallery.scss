@@ -1,25 +1,29 @@
-.gallery {
-    background-color : $gold ;
-    padding-top : 55px ;
-    padding-bottom : 55px ;
+.gallery-gallery {
     height : auto ;
+    position : relative ;
+    padding : 25px ;
+    margin-bottom : 25px ;
+    background-color : $white ;
     @media screen and (max-width: $break-sm) {
-        padding : 10px 0 ;
+        padding : 0 ;
     }
     width : 100% ;
+
+    .jumbotron {
+        border-radius : 0 ;
+        background-color : $beige;
+        color : $blue ;
+    }
+
+    .jumbotron-heading {
+        @include  titre-style();
+    }
+
     .card-columns {
         column-count: 4;
         grid-gap: 10px;
         @media screen and (max-width: $break-sm) {
             column-count: 2;
-        }
-    }
-    .container {
-        position : relative ;
-        padding : 25px ;
-        background-color : $white ;
-        @media screen and (max-width: $break-sm) {
-            padding : 0 ;
         }
     }
     .card {

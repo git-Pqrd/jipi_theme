@@ -1,10 +1,24 @@
 #nav  {
+  #primary-menu li { margin-left : 20px ; }
    ul.menu-top {
-     a { @include light-on-blue-style(1em) }
+     a { @include light-on-blue-style(1.3em) }
    }
    .navbar-toggler {
       color : $gold  ;
    }
+
+    @media screen and (max-width: $break-sm) {
+        #primary-menu  { padding : 50px  0 }
+        #primary-menu li {
+            text-align : center ;
+            line-height : 2.5rem ;
+            margin-left : 20px ;
+        }
+    }
+    .navbar-toggler {
+        text-decoration-color: transparent ;
+    }
+
 }
 
 #titre {

@@ -43,6 +43,7 @@ html { font-size  : 1em }
 }
 
 @mixin button($color) { //all button
+    cursor : pointer  ;
     color: $color ;
     border: 3px solid $color ;
     padding : 5px  50px ;
@@ -61,6 +62,7 @@ html { font-size  : 1em }
 }
 
 
+
 body { background-color: $blue ; }
 
 
@@ -70,5 +72,9 @@ body { background-color: $blue ; }
 @import './intersection' ;
 @import './jipi' ;
 @import './about' ;
-@import './gallery' ;
+@import './front-gallery' ;
 @import './footer' ;
+//gallery
+@import './gallery-gallery' ;
+//product
+@import './product' ;

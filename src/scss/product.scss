@@ -1,0 +1,15 @@
+#product-page {
+    margin-bottom : 55px ;
+
+    .product-page-titre {
+      @include titre-style() ;
+    }
+    .product-page-sous-titre {
+      @include  light-on-blue-style(1.5em) ;
+    }
+    .product-page-button {
+      @include  button($gold) ;
+    }
+
+    color : $beige ;
+}

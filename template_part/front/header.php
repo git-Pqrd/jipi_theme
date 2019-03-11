@@ -1,10 +1,10 @@
 <header>
-  <div id="slider_jp" class="carousel slide" data-ride="carousel">
+  <div id="carousel" class="carousel slide" data-ride="carousel">
 
     <ol class="carousel-indicators">
-      <li data-target="#slider_jp" data-slide-to="0" class="active"></li>
-      <li data-target="#slider_jp" data-slide-to="1"></li>
-      <li data-target="#slider_jp" data-slide-to="2"></li>
+      <li data-target="#carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel" data-slide-to="1"></li>
+      <li data-target="#carousel" data-slide-to="2"></li>
     </ol>
     <div class="carousel-inner" id="home-carousel" role="listbox">
       <!-- Slide One - Set the background image for this slide in the line below -->
@@ -60,11 +60,11 @@
 
       </div>
 
-    <a class="carousel-control-prev" href="#slider_jp" role="button" data-slide="prev">
+    <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">pro</span>
         </a>
-    <a class="carousel-control-next" href="#slider_jp" role="button" data-slide="next">
+    <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
