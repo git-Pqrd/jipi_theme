@@ -1,5 +1,5 @@
-//.intersection { position : relative }
 .cta-intersection {
+    margin-top : 50px ;
     width : 100% ;
     display : flex ;
     justify-content : center ;
@@ -14,4 +14,7 @@
     }
     .cta-intersection-inside a:hover { color : $beige ; }
     .cta-intersection-img { height : 80px ; }
+    @media screen and (max-width: $break-sm) {
+      margin-top : 50px ;
+    }
 }

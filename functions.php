@@ -5,7 +5,7 @@ function my_theme_enqueue_styles() {
 }
 
 function  animation_scripts() {
-  wp_enqueue_script( 'custom-script', get_stylesheet_directory_uri() . '/build/bundle.js', array( 'jquery' ), true);
+  wp_enqueue_script( 'custom-script', get_stylesheet_directory_uri() . '/build/bundle.js', array(), true);
 }
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 add_action( 'wp_enqueue_scripts', 'animation_scripts' );
