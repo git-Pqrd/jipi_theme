@@ -18,7 +18,7 @@
                     <div class="carousel-caption  d-md-block carousel-content">
                       <h3 class="display-4 carousel-titre">First Slide</h3>
                       <p class="lead carousel-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et jus</p>
-                        <button class="carousel-button">Voir les photophores</button>
+                        <button class="carousel-button">Voir la Gallerie</button>
                     </div>
                 </div>
                 <div class="right col-lg-2 col-sm-12"> </div>
@@ -34,7 +34,8 @@
                     <div class="carousel-caption  d-md-block carousel-content">
                       <h3 class="display-4 carousel-titre">First Slide</h3>
                       <p class="lead carousel-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et jus</p>
-                        <button class="carousel-button">Voir les photophores</button>
+                        <button class="carousel-button">Voir la Gallerie</button>
+                    </div>
                     </div>
                 </div>
                 <div class="right col-lg-2 col-sm-12"> </div>
@@ -50,7 +51,8 @@
                     <div class="carousel-caption  d-md-block carousel-content">
                       <h3 class="display-4 carousel-titre">First Slide</h3>
                       <p class="lead carousel-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et jus</p>
-                        <button class="carousel-button">Voir les photophores</button>
+                        <button class="carousel-button">Voir la Gallerie</button>
+                    </div>
                     </div>
                 </div>
                 <div class="right col-lg-2 col-sm-12"> </div>

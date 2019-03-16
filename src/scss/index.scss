@@ -17,7 +17,7 @@ $beige : #D1CEA1 ;
 $blue : #1E2434 ;
 $gold : #B1924F ;
 
-html { font-size  : 1em }
+html { font-size  : 1em ; scroll-behavior: smooth;}
 //character style
 @mixin light-on-blue-style($size) { //navbar, visiter-cta
         color : $gold   ;

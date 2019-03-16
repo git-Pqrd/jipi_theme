@@ -1,4 +1,5 @@
 #nav  {
+    z-index : 3 ;
   #primary-menu li { margin-left : 20px ; }
    ul.menu-top {
      a { @include light-on-blue-style(1.3em) }

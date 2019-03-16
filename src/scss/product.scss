@@ -3,13 +3,80 @@
 
     .product-page-titre {
       @include titre-style() ;
+      @media screen and (max-width: $break-sm) { text-align: center ;}
+      border-bottom : 2px solid $gold ;
     }
     .product-page-sous-titre {
       @include  light-on-blue-style(1.5em) ;
     }
     .product-page-button {
       @include  button($gold) ;
+      @media screen and (max-width: $break-sm) {
+        margin-bottom : 1em ;
+      }
+      margin-top : 1em ;
+    }
+
+    .product-page-images {
+      display : flex;
+      height : 500px ;
+      display : flex ;
+      flex-wrap: wrap ;
+      width : 500px ;
+
+    }
+    .product-image-lead-box {
+        width  : 100% ;
+        height : 80% ;
+        display : flex ;
+        justify-content: center ;
+        padding : 15px ;
+        .img-lead {
+          max-width : 100% ;
+          width : auto ;
+          max-height : 100% ;
+          height : auto ;
+        }
+
+    }
+    .product-page-thumbnails {
+      width : 100% ;
+      height : 20% ;
+      display : flex ;
+      justify-content: center;
+      img {
+        width : auto ;
+        max-height : 100%;
+      }
+    }
+
+    .product-page-short-description {
+    }
+
+    .product-page-long-description {
+      margin-top : 2em ;
+      @media screen and (max-width: $break-sm) {
+        margin-top : 1em ;
+        text-align: center ;
+      }
     }
 
     color : $beige ;
+
+    .product-page-column-description {
+      margin : auto ;
+      @media screen and (max-width: $break-sm) { text-align: center ;}
+    }
+}
+
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn .5s ease-in 1 forwards;
 }
